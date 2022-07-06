@@ -1,4 +1,4 @@
-.wrapper {
-  padding: 20px;
-  color: black;
+.wrapper nav {
+  border-bottom: solid 1px;
+  padding-bottom: 1rem;
 }
