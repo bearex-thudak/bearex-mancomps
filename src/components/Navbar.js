@@ -6,9 +6,11 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <nav>
-        <Link to="/">
-          <img src={bxlogo} alt="bxlogo" />
-        </Link>
+        <div className="logobox">
+          <Link to="/">
+            <img src={bxlogo} alt="bxlogo" />
+          </Link>
+        </div>
         <ul className="navlinks">
           <li>
             <Link to="/charts">Charts</Link>
