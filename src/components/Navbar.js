@@ -6,10 +6,12 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <nav>
-        <img src={bxlogo} alt="bxlogo" />
+        <Link to="/">
+          <img src={bxlogo} alt="bxlogo" />
+        </Link>
         <Link to="/charts">Charts</Link> |{" "}
         <Link to="/dashboard">Dashboard</Link> |{" "}
-        <Link to="/reports">Reports</Link> | <Link to="/Charts">Tables</Link> |{" "}
+        <Link to="/reports">Reports</Link> | <Link to="/tables">Tables</Link> |{" "}
         <Link to="/help">Help</Link>
       </nav>
     </div>
