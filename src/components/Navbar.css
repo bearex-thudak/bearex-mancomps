@@ -1,9 +1,10 @@
 .Navbar nav {
   padding: 10px;
   display: flex;
-  border: 2px solid black;
-  text-decoration: none;
-  color: black;
+  justify-content: space-between;
+
+  box-shadow: -1px 8px 0px -3px rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
 }
 
 nav img {
