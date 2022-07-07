@@ -1,13 +1,22 @@
-.Navbar nav {
+.Navbar nav ul {
+  margin: 5px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
 
-  box-shadow: -1px 8px 0px -3px rgba(0, 0, 0, 0.75);
   margin-bottom: 10px;
+  list-style-type: none;
 }
 
 nav img {
   max-width: 75%;
   height: auto;
+}
+
+.logobox {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
