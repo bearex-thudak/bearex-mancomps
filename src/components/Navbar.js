@@ -4,13 +4,14 @@ import bxlogo from "../assets/logo-tagline.webp";
 
 const Navbar = () => {
   return (
-    <div className="Navbar">
+    <div>
       <nav>
-        <div className="logobox">
+        <div>
           <Link to="/">
             <img src={bxlogo} alt="bxlogo" />
           </Link>
         </div>
+
         <ul className="navlinks">
           <li>
             <Link to="/charts">Charts</Link>
