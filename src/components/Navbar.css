@@ -1,0 +1,12 @@
+.Navbar nav {
+  padding: 10px;
+  display: flex;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+nav img {
+  max-width: 75%;
+  height: auto;
+}
