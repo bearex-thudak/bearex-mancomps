@@ -9,10 +9,23 @@ const Navbar = () => {
         <Link to="/">
           <img src={bxlogo} alt="bxlogo" />
         </Link>
-        <Link to="/charts">Charts</Link> |{" "}
-        <Link to="/dashboard">Dashboard</Link> |{" "}
-        <Link to="/reports">Reports</Link> | <Link to="/tables">Tables</Link> |{" "}
-        <Link to="/help">Help</Link>
+        <ul className="navlinks">
+          <li>
+            <Link to="/charts">Charts</Link>
+          </li>
+          <li>
+            <Link to="/dashboard">Dashboard</Link>
+          </li>
+          <li>
+            <Link to="/reports">Reports</Link>
+          </li>
+          <li>
+            <Link to="/tables">Tables</Link>
+          </li>
+          <li>
+            <Link to="/help">Help</Link>
+          </li>
+        </ul>
       </nav>
     </div>
   );
