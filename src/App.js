@@ -7,12 +7,13 @@ import Dashboard from "./routes/Dashboard/Dashboard";
 import Reports from "./routes/Reports/Reports";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import Headerlogo from "./components/Headerlogo";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+        <Headerlogo />
         <Routes>
           <Route path="/" element={<Main />}></Route>
           <Route path="help" element={<Help />}></Route>
@@ -20,7 +21,8 @@ function App() {
           <Route path="charts" element={<Charts />}></Route>
           <Route path="dashboard" element={<Dashboard />}></Route>
           <Route path="reports" element={<Reports />}></Route>
-        </Routes>
+        </Routes>{" "}
+        <Navbar />
       </BrowserRouter>
     </div>
   );

@@ -1,0 +1,11 @@
+.Headerlogo {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(212, 212, 212);
+}
+
+.header-text {
+  font-weight: bold;
+}
