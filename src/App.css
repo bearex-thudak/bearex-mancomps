@@ -1,6 +1,6 @@
-.wrapper nav {
-  border-bottom: solid 1px;
-  padding-bottom: 1rem;
+body {
+  background-color: rgb(245, 249, 255);
+  min-height: 100%;
 }
 
 a {
