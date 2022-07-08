@@ -1,15 +1,15 @@
-.Dashboard {
-  width: 100vw;
-  height: 100vh;
+/* .Dashboards {
+  width: auto;
+  height: 20vh;
 }
 
-/* .Dashboard {
+.Dashboards {
   padding: 50px 0;
-}
+} */
 
-.Dashboard img {
-  width: 100vw;
-  height: auto;
+.Dashboards img {
+  /* width: 100vw;
+  height: auto; */
 
   animation: fadeIn 2s;
   -webkit-animation: fadeIn 2s;
@@ -61,4 +61,4 @@
   100% {
     opacity: 1;
   }
-} */
+}

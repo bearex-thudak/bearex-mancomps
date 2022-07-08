@@ -1,7 +1,7 @@
 import "./Navbar.css";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import bxlogo from "../assets/logo-tagline.webp";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
             <Link to="/charts">Charts</Link>
           </li>
           <li>
-            <Link to="/dashboard">Dashboards</Link>
+            <Link to="/dashboards">Dashboards</Link>
           </li>
           <li>
             <Link to="/reports">Reports</Link>
@@ -20,9 +20,12 @@ const Navbar = () => {
           <li>
             <Link to="/tables">Tables</Link>
           </li>
-          {/* <li>
-            <Link to="/help">Help</Link>
-          </li> */}
+          <li>
+            <Link to="/forms">Forms</Link>
+          </li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
         </ul>
       </nav>
     </div>
