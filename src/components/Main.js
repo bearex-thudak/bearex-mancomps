@@ -1,8 +1,8 @@
-import { Form } from "react-bootstrap";
 import "./Main.css";
+import bxspinning from "../assets/bx-spinning.png";
 
 const Main = () => {
-  return <div className="Main"></div>;
+  return <div className="Main">BX</div>;
 };
 
 export default Main;

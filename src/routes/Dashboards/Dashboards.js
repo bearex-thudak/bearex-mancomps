@@ -7,7 +7,7 @@ import Iframe from "react-iframe";
 
 const Dashboards = () => {
   return (
-    <div>
+    <div className="dashboards-frame">
       {/* <iframe
         width="560"
         height="315"
@@ -19,8 +19,9 @@ const Dashboards = () => {
       ></iframe> */}
       <iframe
         src="https://www.bearex.com/idashboards/viewer?guestuser=guest&dashID=1438"
-        height=""
-        width=""
+        // height="500px"
+        // width="500px"
+        styles="object-fit"
       ></iframe>
     </div>
   );
